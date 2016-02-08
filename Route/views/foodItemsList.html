@@ -1,0 +1,17 @@
+<div align="center">
+    <h1>These are the items in the list</h1>
+    <p> Search item:   <input type="text" ng-model="test"></p>
+</div>
+<div align="center">
+    <table align="center" class="CSSTableGenerator" border="1">
+        <tr>
+            <th>Name</th>
+        </tr>
+        <tr ng-repeat="each in names | filter:test">
+            <td><a href="#Report/{{each.id}}">{{each.name}}</a></td>
+        </tr>
+    </table>
+</div>
+
+
+

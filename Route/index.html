@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+    <link rel="stylesheet" type="text/css" href="sheet.css">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-controller="myCtrl"> 
+
+<div align="center">
+    <a href="#foodItemsList">home</a> &nbsp;&nbsp;&nbsp;&nbsp;Click here to view items
+</div>
+<div>
+<div ng-view></div>
+</div>
+
+</body>
+</html>

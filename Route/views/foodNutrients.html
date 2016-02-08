@@ -1,0 +1,27 @@
+
+<div align="center">
+    <table align="center" class="CSSTableGenerator" border="1">
+        <tr>
+            <th>Nutrient_id</th>
+            <th>Nutrient Name</th>
+            <th>Group</th>
+            <th>Unit</th>
+            <th>Value</th>
+            <th>Sourcecode</th>
+            <th>dp</th>
+            <th>se</th>
+        </tr>
+        <tr ng-repeat="each in foodData">
+
+            <td><b>{{each.nutrient_id}}</b></td>
+            <td><b>{{each.name}}</b></td>
+            <td><b>{{each.group}}</b></td>
+            <td><b>{{each.unit}}</b></td>
+            <td><b>{{each.value}}</b></td>
+            <td><b>{{each.sourcecode}}</b></td>
+            <td><b>{{each.dp}}</b></td>
+            <td><b>{{each.se}}</b></td>
+
+        </tr>
+    </table>
+</div>
